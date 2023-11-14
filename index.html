@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>3 forma</title>
+</head>
+<body>
+
+    <h1>Geometric Figures</h1>
+    
+    <div class="form">
+        <div class="cuadrado"></div>
+        <div class="circulo"></div>
+        <div class="triangulo"></div>
+        <div class="calculadora">
+            <div class="square">
+                <h2>Calcute the are and perimeter of a square</h2>
+
+                <form>
+                    <div>
+                        <label for="squareInput">
+                        How long is each side?
+                        </label>
+                    </div>
+
+                    <input type="text" id="squareInput">
+                    <p id="squarePerimeter"></p>
+                    <p id="squareArea"></p>
+    
+                    <div class="form2">
+                        <input type="button" onclick="squarePerimeterCalculate()" class="btn" value="Calcute perimeter">
+                        <input type="button" onclick="squareAreaCalculate()" class="btn" value="Calcute area">
+                        <input type="reset" class="btn" value="Reset">
+           
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+
+
+        <div class="calculadora">
+            <div class="circle">
+                <h2 >Calcute the are and perimeter of a circle</h2>
+
+                    <form>
+                     <div>
+                         <label for="circleInput">
+                         How long is the radius?
+                         </label>
+                     </div>
+
+                        <input type="text" id="circleInput">
+                        <p id="circlePerimeter"></p>
+                        <p id="circleArea"></p>
+    
+                        <div class="form2">
+                            <input type="button" onclick="circlePerimeterCalculate()" class="btn" value="Calcute perimeter">
+                            <input type="button" onclick="circleAreaCalculate()" class="btn" value="Calcute area">
+                            <input type="button" class="btn" value="Reset">
+           
+                        </div>
+                    </form>
+            </div>
+    
+        </div>
+
+
+        <div class="calculadora">
+            <div class="triangle">
+                <h2 >Calcute the are and perimeter of a triangle</h2>
+
+            <form>
+                <div class="form3">
+
+                    <div>
+                    <label for="side1Input">
+                        How long is the firsh side?
+                    </label>
+
+                <input type="text" id="side1Input">
+                    </div>
+
+                    <div>
+                    <label for="side2Input">
+                        How long is the second side?
+                    </label>
+
+                <input type="text" id="side2Input">
+                    </div>
+
+                    <div>
+                    <label for="baseInput">
+                        How long is the base?
+                    </label>
+
+                <input type="text" id="baseInput">
+                    </div>
+
+                    <div>
+                    <label for="heightInput">
+                        How long is the height?
+                    </label>
+
+                <input type="text" id="heightInput">
+                     </div>
+                </div>
+
+                <p id="trianglePerimeter"></p>
+                <p id="triangleArea"></p>
+    
+             <div class="form2">
+                <input type="button" onclick="trianglePerimeterCalculate()" class="btn" value="Calcute perimeter">
+                <input type="button" onclick="triangleAreaCalculate()" class="btn" value="Calcute area">
+                <input type="reset" class="btn" value="Reset">
+           
+            </div>
+            </form>
+            </div>
+    
+        </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

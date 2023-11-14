@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.calculadora{
+    background-color: rgb(69, 101, 243);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+form p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+input[ type= "text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: monospace;
+    border-radius: .5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: rgb(233, 113, 197);
+    color: rgb(0, 10, 10);
+    border: 100%;
+    width: 95%;
+    padding: 1.2rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem .9rem;
+    cursor: pointer;
+}
+
+.botones{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.number-input{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.form2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.form3 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.cuadrado {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(60, 191, 196, 0.856);
+    margin: auto;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(60, 191, 196, 0.856);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid rgba(60, 191, 196, 0.856);
+    margin: auto;
+}
